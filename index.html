@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkatesh Krishnan | AI Product Portfolio</title>
+<meta name="description" content="AI Product Portfolio — healthcare AI, product management, workflow automation and UX prototypes by Venkatesh Krishnan.">
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--text:#18202a;--muted:#5d6876;--accent:#2457d6;--border:#e3e7ee}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+.container{max-width:1100px;margin:auto;padding:0 22px}
+.hero{padding:76px 0 55px;background:linear-gradient(135deg,#eef3ff,#fff)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:46px;line-height:1.08;margin:12px 0 16px;letter-spacing:-.03em}
+.hero p{max-width:780px;font-size:18px;color:var(--muted);margin:0}
+.pills{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.pill{padding:7px 12px;border:1px solid var(--border);background:#fff;border-radius:999px;font-size:13px;color:#3f4a58}
+.section{padding:48px 0}.section h2{font-size:27px;margin:0 0 9px}.section-intro{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:0 4px 18px rgba(20,30,50,.04);display:flex;flex-direction:column}
+.num{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.1em}.card h3{margin:8px 0 8px;font-size:20px}.tag{font-size:12px;font-weight:700;color:#52606d;margin-bottom:13px}.card p{color:var(--muted);margin:0 0 18px}.features{padding-left:18px;margin:0 0 22px;color:#4f5a67;font-size:14px}.features li{margin:5px 0}
+.btn{display:inline-block;text-decoration:none;background:var(--accent);color:white!important;padding:10px 15px;border-radius:9px;font-weight:700;font-size:14px;align-self:flex-start}.btn.secondary{background:#eef3ff;color:var(--accent)!important;margin-left:8px}
+.about{background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px}.about p{color:var(--muted)}
+.contact{padding:35px 0 55px;text-align:center}.contact a{color:var(--accent)}
+footer{padding:20px 0;color:#7a8491;font-size:12px;text-align:center}
+@media(max-width:760px){h1{font-size:36px}.grid,.about-grid{grid-template-columns:1fr}.hero{padding-top:52px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<div class="eyebrow">AI Product Portfolio</div>
+<h1>Venkatesh Krishnan</h1>
+<p>Product Management • Generative AI • Healthcare Technology • Workflow Automation • UX Prototyping</p>
+<p style="margin-top:14px">A collection of working prototypes and product concepts demonstrating practical application of AI, product thinking, healthcare workflows, automation, and human-centered design.</p>
+<div class="pills">
+<span class="pill">AI Product Strategy</span><span class="pill">LLMs & Prompt Engineering</span><span class="pill">Healthcare Technology</span><span class="pill">FHIR / EDI</span><span class="pill">UX Prototyping</span>
+</div>
+</div>
+</header>
+
+<main>
+<section class="section">
+<div class="container">
+<h2>Featured AI & Product Prototypes</h2>
+<p class="section-intro">Explore the problem each prototype addresses, its core capabilities, and the live demonstration.</p>
+<div class="grid">
+
+<article class="card">
+<div class="num">01</div><h3>AI Claim Scrubber</h3><div class="tag">Healthcare RCM / EDI</div>
+<p>AI-assisted claim-quality concept for identifying inconsistencies, potential rejection or denial risks, and recommended corrective actions before submission.</p>
+<ul class="features"><li>Claim consistency checks</li><li>Potential rejection/denial risk identification</li><li>Recommended corrective actions</li></ul>
+<a class="btn" href="https://venkateshsoft.github.io/edi-claim-scrubber/" target="_blank">Launch Demo ↗</a>
+</article>
+
+<article class="card">
+<div class="num">02</div><h3>PriorAuth Connect</h3><div class="tag">Healthcare • Prior Authorization</div>
+<p>Prior authorization workflow prototype covering request intake, patient/service context, FHIR-style representation, simulated payer processing, status visibility, and audit workflow.</p>
+<ul class="features"><li>CRD / DTR concepts</li><li>FHIR-style representation</li><li>Status and audit workflow</li></ul>
+<a class="btn" href="https://venkateshsoft.github.io/priorauth-connect/" target="_blank">Launch Demo ↗</a>
+</article>
+
+<article class="card">
+<div class="num">03</div><h3>TMHP 837 PWK Segment Generator</h3><div class="tag">Healthcare EDI Productivity</div>
+<p>Browser-based EDI productivity application that generates formatted TMHP 837 PWK segments and PWK06 values while validating payer-position-specific data.</p>
+<ul class="features"><li>Structured PWK generation</li><li>Validation and formatting</li><li>EDI productivity workflow</li></ul>
+<a class="btn" href="https://venkateshsoft.github.io/tmhp-pwk-segment-generator/" target="_blank">Launch Demo ↗</a>
+</article>
+
+<article class="card">
+<div class="num">04</div><h3>Patient Messaging Product Prototype</h3><div class="tag">AI-assisted Healthcare Communication</div>
+<p>AI-assisted patient communication experience for drafting, refining, organizing, and adapting patient-facing messages with human review before sending.</p>
+<ul class="features"><li>AI-assisted drafting</li><li>Message refinement</li><li>Human review before sending</li></ul>
+<a class="btn" href="https://patient-messaging-product-prototype.vercel.app/" target="_blank">Launch Demo ↗</a>
+</article>
+
+<article class="card">
+<div class="num">05</div><h3>MediTrack</h3><div class="tag">Medication Tracking & Reminders</div>
+<p>Standalone patient medication-management application for medication history, schedules, reminders, OCR-based information capture, and structured validation.</p>
+<ul class="features"><li>Medication history</li><li>Schedules and reminders</li><li>OCR-assisted information capture</li></ul>
+<a class="btn" href="https://venkateshsoft.github.io/meditrack/" target="_blank">Launch Demo ↗</a>
+</article>
+
+<article class="card">
+<div class="num">06</div><h3>Design Companion</h3><div class="tag">AI UX Design Copilot</div>
+<p>AI-assisted design copilot that transforms rough design notes and usability feedback into layout recommendations, UI copy improvements, usability opportunities, and validation questions.</p>
+<ul class="features"><li>Layout & information hierarchy</li><li>UI copy recommendations</li><li>Human-in-the-loop validation</li></ul>
+<a class="btn" href="https://design-companion-ai-o22tscapphmyqd9ieu4xxwf.streamlit.app/" target="_blank">Launch Demo ↗</a>
+</article>
+
+</div>
+</div>
+</section>
+
+<section class="section about">
+<div class="container about-grid">
+<div>
+<h2>Product + AI in Practice</h2>
+<p>These prototypes demonstrate a hands-on approach to translating product problems into usable digital experiences, rapidly validating concepts, and applying Generative AI where it can improve workflows, user experience, or operational efficiency.</p>
+<p>The work spans healthcare RCM, EDI, prior authorization, patient communication, medication management, and AI-assisted UX design. The prototypes are intended as demonstrations and use public or self-created data rather than confidential production information.</p>
+</div>
+<div>
+<h2>AI & Product Focus</h2>
+<ul>
+<li>Generative AI & LLM applications</li>
+<li>Prompt engineering</li>
+<li>Human-in-the-loop workflows</li>
+<li>AI product prototyping</li>
+<li>Healthcare workflows</li>
+<li>FHIR & EDI concepts</li>
+<li>Workflow automation</li>
+<li>UX / product discovery</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="contact">
+<div class="container">
+<h2>Explore the prototypes</h2>
+<p>Each project opens in its own live demonstration environment.</p>
+</div>
+</section>
+</main>
+<footer>© 2026 Venkatesh Krishnan • AI Product Portfolio</footer>
+</body>
+</html>
